@@ -1,23 +1,172 @@
+<div align="center">
+
 # Krish Prajapati
 
-Backend engineer — Java, Spring Boot, Kubernetes, Kafka. B.S. Computer Science, Purdue University Northwest (May 2026, 3.86 GPA).
+### Software Engineer
+Java • Spring Boot • Distributed Systems • Kubernetes
 
-I build systems the way production teams build them: real infrastructure, automated testing, CI/CD, and observability — not toy apps.
+<br>
 
-## Projects
+## `krish@github:~$ git contributions`
 
-**[Issue Tracker](https://github.com/kishnahai0806/Issue-Tracker)** — Multi-tenant, Jira-style platform on Kubernetes (HPA 2–8 replicas). Deny-by-default WebSocket authorization, atomic JWT refresh-token rotation via Redis Lua, Redis pub/sub event fan-out across replicas. 129 tests, 80% coverage enforced in CI.
+<img src="./contrib-heatmap.svg" width="900" alt="Contribution Heatmap"/>
 
-**Schoolem** *(private repo — [live site](https://www.officialschoolem.org))* — Social platform for verified college students, built with a 4-person team. I independently designed and built the direct-messaging service: a stateless Spring Boot OAuth2 resource server with mutual-follow authorization, rate limiting, and 93 tests.
+<br><br>
 
-**[AI Support Platform](https://github.com/kishnahai0806/AI-Support-Platform)** — Two asynchronous Spring Boot microservices connected by Kafka, using the OpenAI API to triage support tickets. Live in production with Prometheus/Grafana monitoring. 74 tests, 80% coverage.
+## `krish@github:~$ whoami`
 
-**[SteelWorks](https://github.com/kishnahai0806/SteelWorks)** — Manufacturing metrics dashboard (Python, PostgreSQL). Full testing pyramid — unit, integration, and Playwright end-to-end — deployed on Render with Sentry and uptime monitoring.
+<table>
+<tr>
 
-## Stack
+<td valign="top" width="40%">
+<img src="./ascii.svg" width="350" alt="ASCII Portrait"/>
+</td>
 
-Java · Spring Boot · PostgreSQL · Redis · Apache Kafka · Docker · Kubernetes · AWS · GitHub Actions · JUnit · Testcontainers · pytest · Playwright · Prometheus · Grafana · OpenTelemetry
+<td valign="top" width="60%">
+<img src="./info-card.svg" width="500" alt="Developer Information"/>
+</td>
 
-## Contact
+</tr>
+</table>
 
-[LinkedIn](https://www.linkedin.com/in/krish-prajapati-swe/) · kprajapati0806@gmail.com
+</div>
+
+---
+
+## `krish@github:~$ ls projects`
+
+### 🚀 Issue Tracker
+**Production-grade multi-tenant project management platform**
+
+- Kubernetes deployment with Horizontal Pod Autoscaling (2–8 replicas)
+- Spring Boot, PostgreSQL, Redis
+- Deny-by-default WebSocket authorization
+- Atomic JWT refresh-token rotation using Redis Lua
+- Redis pub/sub across replicas
+- Prometheus, Grafana & OpenTelemetry observability
+- 129 automated tests with 80% coverage enforced in CI
+
+🔗 https://github.com/kishnahai0806/Issue-Tracker
+
+---
+
+### 🎓 Schoolem *(Private Repository)*
+
+**Live social platform for verified college students**
+
+- Built with a 4-person engineering team
+- Designed and developed the entire direct messaging service
+- Stateless Spring Boot OAuth2 Resource Server
+- Mutual-follow authorization
+- Rate limiting
+- Cursor pagination
+- Read-state tracking
+- 93 automated tests
+
+🌐 https://www.officialschoolem.org
+
+---
+
+### 🤖 AI Support Platform
+
+**Event-driven ticket triage system**
+
+- Two asynchronous Spring Boot microservices
+- Apache Kafka event streaming
+- OpenAI API integration
+- Railway deployment
+- Prometheus & Grafana monitoring
+- 74 automated tests
+
+🔗 https://github.com/kishnahai0806/AI-Support-Platform
+
+---
+
+### 🏭 SteelWorks
+
+**Manufacturing analytics dashboard**
+
+- Python
+- PostgreSQL
+- Playwright E2E testing
+- Sentry monitoring
+- Render deployment
+
+🔗 https://github.com/kishnahai0806/SteelWorks
+
+---
+
+## `krish@github:~$ cat backend.txt`
+
+```text
+Java
+Spring Boot
+Spring Security
+Spring Batch
+REST APIs
+WebSockets
+Hibernate/JPA
+Apache Kafka
+OAuth2/JWT
+Microservices
+```
+
+---
+
+## `krish@github:~$ cat infrastructure.txt`
+
+```text
+Docker
+Kubernetes
+AWS
+Linux
+PostgreSQL
+Redis
+Supabase
+MinIO
+Nginx
+GitHub Actions
+Liquibase
+```
+
+---
+
+## `krish@github:~$ cat engineering.txt`
+
+```text
+Distributed Systems
+Event-Driven Architecture
+CI/CD
+Observability
+Testing
+
+JUnit
+Mockito
+Testcontainers
+pytest
+Playwright
+
+Prometheus
+Grafana
+OpenTelemetry
+Jaeger
+Micrometer
+Sentry
+
+Agile
+Scrum
+Software Development Life Cycle (SDLC)
+```
+
+---
+
+## `krish@github:~$ contact`
+
+📧 **Email**  
+kprajapati0806@gmail.com
+
+💼 **LinkedIn**  
+https://www.linkedin.com/in/krish-prajapati-swe/
+
+🐙 **GitHub**  
+https://github.com/kishnahai0806
