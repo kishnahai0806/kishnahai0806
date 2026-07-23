@@ -1,0 +1,161 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="500"
+  height="410"
+  viewBox="0 0 500 410"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Krish Prajapati developer information</title>
+  <desc id="description">
+    A terminal-style information card showing Krish Prajapati's software engineering skills.
+  </desc>
+
+  <style>
+    .card {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 2;
+    }
+
+    .header {
+      fill: #161b22;
+    }
+
+    .divider {
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+
+    .title {
+      fill: #f0f6fc;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .prompt {
+      fill: #39d353;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .label {
+      fill: #58a6ff;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .value {
+      fill: #c9d1d9;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 14px;
+    }
+
+    .muted {
+      fill: #8b949e;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 13px;
+    }
+
+    .line {
+      opacity: 0;
+      animation: reveal 0.35s ease-out forwards;
+    }
+
+    .line1 { animation-delay: 0.15s; }
+    .line2 { animation-delay: 0.30s; }
+    .line3 { animation-delay: 0.45s; }
+    .line4 { animation-delay: 0.60s; }
+    .line5 { animation-delay: 0.75s; }
+    .line6 { animation-delay: 0.90s; }
+    .line7 { animation-delay: 1.05s; }
+    .line8 { animation-delay: 1.20s; }
+    .line9 { animation-delay: 1.35s; }
+    .line10 { animation-delay: 1.50s; }
+
+    @keyframes reveal {
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
+  <rect class="card" x="1" y="1" width="498" height="408" rx="12" />
+
+  <path
+    class="header"
+    d="M13 1 H487 Q499 1 499 13 V49 H1 V13 Q1 1 13 1 Z"
+  />
+
+  <circle cx="22" cy="25" r="6" fill="#ff5f56" />
+  <circle cx="42" cy="25" r="6" fill="#ffbd2e" />
+  <circle cx="62" cy="25" r="6" fill="#27c93f" />
+
+  <text class="title" x="250" y="31" text-anchor="middle">
+    krish@github: ~/profile
+  </text>
+
+  <line class="divider" x1="1" y1="49" x2="499" y2="49" />
+
+  <g class="line line1">
+    <text class="prompt" x="24" y="82">$ whoami</text>
+  </g>
+
+  <g class="line line2">
+    <text class="label" x="24" y="116">Name</text>
+    <text class="value" x="138" y="116">Krish Prajapati</text>
+  </g>
+
+  <g class="line line3">
+    <text class="label" x="24" y="146">Role</text>
+    <text class="value" x="138" y="146">Software Engineer</text>
+  </g>
+
+  <g class="line line4">
+    <text class="label" x="24" y="176">Focus</text>
+    <text class="value" x="138" y="176">Backend &amp; Distributed Systems</text>
+  </g>
+
+  <g class="line line5">
+    <text class="label" x="24" y="206">Education</text>
+    <text class="value" x="138" y="206">B.S. Computer Science</text>
+  </g>
+
+  <g class="line line6">
+    <text class="label" x="24" y="236">Languages</text>
+    <text class="value" x="138" y="236">Java · Python · TypeScript · SQL</text>
+  </g>
+
+  <g class="line line7">
+    <text class="label" x="24" y="266">Backend</text>
+    <text class="value" x="138" y="266">Spring Boot · Kafka · Redis</text>
+  </g>
+
+  <g class="line line8">
+    <text class="label" x="24" y="296">Platform</text>
+    <text class="value" x="138" y="296">Docker · Kubernetes · AWS</text>
+  </g>
+
+  <g class="line line9">
+    <text class="label" x="24" y="326">Workflow</text>
+    <text class="value" x="138" y="326">Agile · Scrum · CI/CD · SDLC</text>
+  </g>
+
+  <g class="line line10">
+    <text class="label" x="24" y="356">Status</text>
+    <text class="value" x="138" y="356">Building production-grade systems</text>
+  </g>
+
+  <text class="muted" x="24" y="388">
+    Java / Spring Boot / Cloud / Observability
+  </text>
+</svg>
