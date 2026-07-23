@@ -73,7 +73,7 @@
 <text class="label reveal" x="365" y="252" style="animation-delay:0.60s">Packages</text>
 <text class="value reveal" x="470" y="252" style="animation-delay:0.64s">Kafka · Redis · PostgreSQL</text>
 <text class="label reveal" x="365" y="282" style="animation-delay:0.68s">Editor</text>
-<text class="value reveal" x="470" y="282" style="animation-delay:0.72s">IntelliJ IDEA</text>
+<text class="value reveal" x="470" y="282" style="animation-delay:0.72s">Visual Studio Code</text>
 <text class="label reveal" x="365" y="312" style="animation-delay:0.76s">Runtime</text>
 <text class="value reveal" x="470" y="312" style="animation-delay:0.80s">Linux · AWS · CI/CD</text>
 <text class="label reveal" x="365" y="342" style="animation-delay:0.84s">Status</text>
