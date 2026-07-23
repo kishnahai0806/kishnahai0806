@@ -1,26 +1,89 @@
-<div align="center">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="550" viewBox="0 0 900 550" role="img" aria-labelledby="title desc">
+<title id="title">Krish Prajapati featured projects</title>
+<desc id="desc">A terminal-style list of four featured software projects with links, technology stacks, descriptions, and statuses.</desc>
+<style>
 
-# Krish Prajapati
+  .bg { fill: #0d1117; stroke: #30363d; stroke-width: 2; }
+  .titlebar { fill: #161b22; }
+  .divider { stroke: #30363d; stroke-width: 1; }
 
-### Backend Software Engineer
-Java • Spring Boot • Distributed Systems • Kubernetes
+  text {
+    font-family: Consolas, Monaco, "Liberation Mono", "Courier New", monospace;
+    dominant-baseline: middle;
+  }
 
-<br>
+  .window-title { fill: #f0f6fc; font-size: 15px; font-weight: 700; }
+  .prompt { fill: #39d353; font-size: 15px; font-weight: 700; }
+  .name { fill: #58a6ff; font-size: 17px; font-weight: 700; }
+  .tree { fill: #c9d1d9; font-size: 14px; }
+  .label { fill: #8b949e; }
+  .ready { fill: #39d353; }
+  .live { fill: #39d353; }
+  .completed { fill: #39d353; }
 
-<img src="./terminal-dashboard.svg" width="900" alt="Krish Prajapati terminal profile"/>
+  .row {
+    opacity: 0;
+    animation: reveal 0.35s ease-out both;
+  }
 
-<br><br>
+  .cursor {
+    fill: #39d353;
+    animation: blink 1s steps(1, end) infinite;
+  }
 
-<img src="./contrib-heatmap.svg" width="900" alt="GitHub Contribution Heatmap"/>
+  a:hover .name {
+    fill: #79c0ff;
+    text-decoration: underline;
+  }
 
-<br><br>
+  @keyframes reveal {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 
-<img src="./projects-terminal-v2.svg" width="900" alt="Krish Prajapati featured projects"/>
+  @keyframes blink {
+    0%, 45% { opacity: 1; }
+    46%, 100% { opacity: 0; }
+  }
 
-<br><br>
+  @media (prefers-reduced-motion: reduce) {
+    .row { opacity: 1; animation: none; }
+    .cursor { animation: none; }
+  }
 
-## `krish@github:~$ whoami --contact`
-
-💼 [LinkedIn](https://www.linkedin.com/in/krish-prajapati-swe/)
-
-</div>
+</style>
+<rect class="bg" x="1" y="1" width="898" height="548" rx="14"/>
+<path class="titlebar" d="M15 1 H885 Q899 1 899 15 V52 H1 V15 Q1 1 15 1 Z"/>
+<circle cx="24" cy="26" r="6" fill="#ff5f56"/>
+<circle cx="46" cy="26" r="6" fill="#ffbd2e"/>
+<circle cx="68" cy="26" r="6" fill="#27c93f"/>
+<text class="window-title" x="450.0" y="29" text-anchor="middle">krish@github: ~/projects</text>
+<line class="divider" x1="1" y1="52" x2="899" y2="52"/>
+<text class="prompt" x="28" y="82">krish@github:~/projects$ ls -la</text>
+<g class="row" style="animation-delay:0.18s">
+<a href="https://github.com/kishnahai0806/Issue-Tracker" target="_blank"><rect x="24" y="109" width="350" height="28" fill="transparent"/><text class="name" x="30" y="126">📁 Issue-Tracker/</text></a>
+<text class="tree" x="48" y="153">├── <tspan class="label">stack</tspan>   Java · Spring Boot · PostgreSQL · Docker</text>
+<text class="tree" x="48" y="177">├── <tspan class="label">type</tspan>    Multi-tenant Jira-style platform</text>
+<text class="tree" x="48" y="201">└── <tspan class="label">status</tspan>  <tspan class="completed">● Completed</tspan></text>
+</g>
+<g class="row" style="animation-delay:0.36s">
+<a href="https://www.officialschoolem.org" target="_blank"><rect x="24" y="205" width="350" height="28" fill="transparent"/><text class="name" x="30" y="222">📁 Schoolem/</text></a>
+<text class="tree" x="48" y="249">├── <tspan class="label">stack</tspan>   React · Spring Boot · Supabase · PostgreSQL</text>
+<text class="tree" x="48" y="273">├── <tspan class="label">type</tspan>    Realtime student social platform</text>
+<text class="tree" x="48" y="297">└── <tspan class="label">status</tspan>  <tspan class="completed">● Completed · Live</tspan></text>
+</g>
+<g class="row" style="animation-delay:0.54s">
+<a href="https://github.com/kishnahai0806/AI-Support-Platform" target="_blank"><rect x="24" y="301" width="350" height="28" fill="transparent"/><text class="name" x="30" y="318">📁 AI-Support-Platform/</text></a>
+<text class="tree" x="48" y="345">├── <tspan class="label">stack</tspan>   Spring Boot · Kafka · Redis · OpenAI</text>
+<text class="tree" x="48" y="369">├── <tspan class="label">type</tspan>    Event-driven AI ticket processing</text>
+<text class="tree" x="48" y="393">└── <tspan class="label">status</tspan>  <tspan class="completed">● Completed</tspan></text>
+</g>
+<g class="row" style="animation-delay:0.72s">
+<a href="https://github.com/kishnahai0806/SteelWorks" target="_blank"><rect x="24" y="397" width="350" height="28" fill="transparent"/><text class="name" x="30" y="414">📁 SteelWorks/</text></a>
+<text class="tree" x="48" y="441">├── <tspan class="label">stack</tspan>   Python · PostgreSQL · Analytics</text>
+<text class="tree" x="48" y="465">├── <tspan class="label">type</tspan>    Manufacturing operations analytics system</text>
+<text class="tree" x="48" y="489">└── <tspan class="label">status</tspan>  <tspan class="completed">● Completed</tspan></text>
+</g>
+<text class="prompt" x="28" y="526">krish@github:~/projects$</text>
+<rect class="cursor" x="257" y="516" width="9" height="18" rx="1"/>
+</svg>
