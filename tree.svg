@@ -1,0 +1,391 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="700"
+  height="930"
+  viewBox="0 0 700 930"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Krish Prajapati developer skills tree</title>
+  <desc id="description">
+    A terminal-style tree showing backend, infrastructure, testing,
+    observability, workflow, and project experience.
+  </desc>
+
+  <style>
+    .background {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 2;
+    }
+
+    .header {
+      fill: #161b22;
+    }
+
+    .divider {
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+
+    .window-title {
+      fill: #f0f6fc;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .prompt {
+      fill: #39d353;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .tree {
+      fill: #c9d1d9;
+      font-family: Consolas, Monaco, "Courier New", monospace;
+      font-size: 15px;
+    }
+
+    .folder {
+      fill: #58a6ff;
+      font-weight: 700;
+    }
+
+    .project {
+      fill: #d2a8ff;
+      font-weight: 700;
+    }
+
+    .method {
+      fill: #ffa657;
+    }
+
+    .muted {
+      fill: #8b949e;
+    }
+
+    .line {
+      opacity: 0;
+      animation: reveal 0.25s ease-out forwards;
+    }
+
+    .l1  { animation-delay: 0.10s; }
+    .l2  { animation-delay: 0.18s; }
+    .l3  { animation-delay: 0.26s; }
+    .l4  { animation-delay: 0.34s; }
+    .l5  { animation-delay: 0.42s; }
+    .l6  { animation-delay: 0.50s; }
+    .l7  { animation-delay: 0.58s; }
+    .l8  { animation-delay: 0.66s; }
+    .l9  { animation-delay: 0.74s; }
+    .l10 { animation-delay: 0.82s; }
+    .l11 { animation-delay: 0.90s; }
+    .l12 { animation-delay: 0.98s; }
+    .l13 { animation-delay: 1.06s; }
+    .l14 { animation-delay: 1.14s; }
+    .l15 { animation-delay: 1.22s; }
+    .l16 { animation-delay: 1.30s; }
+    .l17 { animation-delay: 1.38s; }
+    .l18 { animation-delay: 1.46s; }
+    .l19 { animation-delay: 1.54s; }
+    .l20 { animation-delay: 1.62s; }
+    .l21 { animation-delay: 1.70s; }
+    .l22 { animation-delay: 1.78s; }
+    .l23 { animation-delay: 1.86s; }
+    .l24 { animation-delay: 1.94s; }
+    .l25 { animation-delay: 2.02s; }
+    .l26 { animation-delay: 2.10s; }
+    .l27 { animation-delay: 2.18s; }
+    .l28 { animation-delay: 2.26s; }
+    .l29 { animation-delay: 2.34s; }
+    .l30 { animation-delay: 2.42s; }
+    .l31 { animation-delay: 2.50s; }
+    .l32 { animation-delay: 2.58s; }
+    .l33 { animation-delay: 2.66s; }
+    .l34 { animation-delay: 2.74s; }
+    .l35 { animation-delay: 2.82s; }
+    .l36 { animation-delay: 2.90s; }
+    .l37 { animation-delay: 2.98s; }
+    .l38 { animation-delay: 3.06s; }
+    .l39 { animation-delay: 3.14s; }
+    .l40 { animation-delay: 3.22s; }
+    .l41 { animation-delay: 3.30s; }
+    .l42 { animation-delay: 3.38s; }
+    .l43 { animation-delay: 3.46s; }
+    .l44 { animation-delay: 3.54s; }
+    .l45 { animation-delay: 3.62s; }
+    .l46 { animation-delay: 3.70s; }
+    .l47 { animation-delay: 3.78s; }
+    .l48 { animation-delay: 3.86s; }
+    .l49 { animation-delay: 3.94s; }
+    .l50 { animation-delay: 4.02s; }
+
+    @keyframes reveal {
+      from {
+        opacity: 0;
+        transform: translateY(4px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .line {
+        opacity: 1;
+        animation: none;
+      }
+    }
+  </style>
+
+  <rect
+    class="background"
+    x="1"
+    y="1"
+    width="698"
+    height="928"
+    rx="12"
+  />
+
+  <path
+    class="header"
+    d="M13 1 H687 Q699 1 699 13 V49 H1 V13 Q1 1 13 1 Z"
+  />
+
+  <circle cx="22" cy="25" r="6" fill="#ff5f56" />
+  <circle cx="42" cy="25" r="6" fill="#ffbd2e" />
+  <circle cx="62" cy="25" r="6" fill="#27c93f" />
+
+  <text
+    class="window-title"
+    x="350"
+    y="31"
+    text-anchor="middle"
+  >
+    krish@github: ~/skills
+  </text>
+
+  <line
+    class="divider"
+    x1="1"
+    y1="49"
+    x2="699"
+    y2="49"
+  />
+
+  <g class="line l1">
+    <text class="prompt" x="24" y="82">
+      krish@github:~$ tree
+    </text>
+  </g>
+
+  <g class="tree">
+
+    <text class="line l2" x="24" y="116">.</text>
+
+    <text class="line l3" x="24" y="144">
+      ├── <tspan class="folder">backend</tspan>
+    </text>
+
+    <text class="line l4" x="24" y="172">
+      │   ├── Java
+    </text>
+
+    <text class="line l5" x="24" y="200">
+      │   ├── Spring Boot
+    </text>
+
+    <text class="line l6" x="24" y="228">
+      │   ├── Spring Security
+    </text>
+
+    <text class="line l7" x="24" y="256">
+      │   ├── Spring Batch
+    </text>
+
+    <text class="line l8" x="24" y="284">
+      │   ├── REST APIs
+    </text>
+
+    <text class="line l9" x="24" y="312">
+      │   ├── WebSocket / STOMP
+    </text>
+
+    <text class="line l10" x="24" y="340">
+      │   ├── Apache Kafka
+    </text>
+
+    <text class="line l11" x="24" y="368">
+      │   ├── Hibernate / JPA
+    </text>
+
+    <text class="line l12" x="24" y="396">
+      │   └── OAuth2 / JWT
+    </text>
+
+    <text class="line l13" x="24" y="424">
+      │
+    </text>
+
+    <text class="line l14" x="24" y="452">
+      ├── <tspan class="folder">infrastructure</tspan>
+    </text>
+
+    <text class="line l15" x="24" y="480">
+      │   ├── Docker
+    </text>
+
+    <text class="line l16" x="24" y="508">
+      │   ├── Kubernetes
+    </text>
+
+    <text class="line l17" x="24" y="536">
+      │   ├── AWS
+    </text>
+
+    <text class="line l18" x="24" y="564">
+      │   ├── Linux
+    </text>
+
+    <text class="line l19" x="24" y="592">
+      │   ├── PostgreSQL
+    </text>
+
+    <text class="line l20" x="24" y="620">
+      │   ├── Redis
+    </text>
+
+    <text class="line l21" x="24" y="648">
+      │   ├── Supabase
+    </text>
+
+    <text class="line l22" x="24" y="676">
+      │   ├── MinIO
+    </text>
+
+    <text class="line l23" x="24" y="704">
+      │   └── Nginx
+    </text>
+
+    <text class="line l24" x="350" y="144">
+      ├── <tspan class="folder">testing</tspan>
+    </text>
+
+    <text class="line l25" x="350" y="172">
+      │   ├── JUnit
+    </text>
+
+    <text class="line l26" x="350" y="200">
+      │   ├── Mockito
+    </text>
+
+    <text class="line l27" x="350" y="228">
+      │   ├── Testcontainers
+    </text>
+
+    <text class="line l28" x="350" y="256">
+      │   ├── pytest
+    </text>
+
+    <text class="line l29" x="350" y="284">
+      │   └── Playwright
+    </text>
+
+    <text class="line l30" x="350" y="312">
+      │
+    </text>
+
+    <text class="line l31" x="350" y="340">
+      ├── <tspan class="folder">observability</tspan>
+    </text>
+
+    <text class="line l32" x="350" y="368">
+      │   ├── Prometheus
+    </text>
+
+    <text class="line l33" x="350" y="396">
+      │   ├── Grafana
+    </text>
+
+    <text class="line l34" x="350" y="424">
+      │   ├── OpenTelemetry
+    </text>
+
+    <text class="line l35" x="350" y="452">
+      │   ├── Jaeger
+    </text>
+
+    <text class="line l36" x="350" y="480">
+      │   ├── Micrometer
+    </text>
+
+    <text class="line l37" x="350" y="508">
+      │   └── Sentry
+    </text>
+
+    <text class="line l38" x="350" y="536">
+      │
+    </text>
+
+    <text class="line l39" x="350" y="564">
+      ├── <tspan class="folder">workflow</tspan>
+    </text>
+
+    <text class="line l40 method" x="350" y="592">
+      │   ├── Agile
+    </text>
+
+    <text class="line l41 method" x="350" y="620">
+      │   ├── Scrum
+    </text>
+
+    <text class="line l42 method" x="350" y="648">
+      │   ├── SDLC
+    </text>
+
+    <text class="line l43 method" x="350" y="676">
+      │   ├── CI/CD
+    </text>
+
+    <text class="line l44 method" x="350" y="704">
+      │   └── GitHub Actions
+    </text>
+
+    <text class="line l45" x="24" y="750">
+      │
+    </text>
+
+    <text class="line l46" x="24" y="778">
+      └── <tspan class="folder">projects</tspan>
+    </text>
+
+    <text class="line l47 project" x="24" y="806">
+          ├── Issue Tracker
+    </text>
+
+    <text class="line l48 project" x="24" y="834">
+          ├── Schoolem
+    </text>
+
+    <text class="line l49 project" x="24" y="862">
+          ├── AI Support Platform
+    </text>
+
+    <text class="line l50 project" x="24" y="890">
+          └── SteelWorks
+    </text>
+
+  </g>
+
+  <text
+    class="tree muted"
+    x="24"
+    y="916"
+  >
+    6 directories, production systems in progress
+  </text>
+</svg>
