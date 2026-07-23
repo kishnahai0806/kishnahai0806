@@ -15,7 +15,19 @@ Java • Spring Boot • Distributed Systems • Kubernetes
 
 <br><br>
 
-<img src="./projects-terminal.svg" width="900" alt="Krish Prajapati featured projects"/>
+<a href="https://github.com/kishnahai0806?tab=repositories">
+  <img src="./projects-terminal.svg" width="900" alt="Krish Prajapati featured projects"/>
+</a>
+
+<br>
+
+[`Issue-Tracker`](https://github.com/kishnahai0806/Issue-Tracker)
+&nbsp;•&nbsp;
+[`Schoolem`](https://www.officialschoolem.org)
+&nbsp;•&nbsp;
+[`AI-Support-Platform`](https://github.com/kishnahai0806/AI-Support-Platform)
+&nbsp;•&nbsp;
+[`SteelWorks`](https://github.com/kishnahai0806/SteelWorks)
 
 <br><br>
 
