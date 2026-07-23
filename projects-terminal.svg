@@ -76,7 +76,7 @@
 <a href="https://github.com/kishnahai0806/AI-Support-Platform" target="_blank"><rect x="24" y="301" width="350" height="28" fill="transparent"/><text class="name" x="30" y="318">📁 AI-Support-Platform/</text></a>
 <text class="tree" x="48" y="345">├── <tspan class="label">stack</tspan>   Spring Boot · Kafka · Redis · OpenAI</text>
 <text class="tree" x="48" y="369">├── <tspan class="label">type</tspan>    Event-driven AI ticket processing</text>
-<text class="tree" x="48" y="393">└── <tspan class="label">status</tspan>  <tspan class="completed">● Completed</tspan></text>
+<text class="tree" x="48" y="393">└── <tspan class="label">status</tspan>  <tspan class="completed">● Completed · Live</tspan></text>
 </g>
 <g class="row" style="animation-delay:0.72s">
 <a href="https://github.com/kishnahai0806/SteelWorks" target="_blank"><rect x="24" y="397" width="350" height="28" fill="transparent"/><text class="name" x="30" y="414">📁 SteelWorks/</text></a>
