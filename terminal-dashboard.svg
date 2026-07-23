@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="860" viewBox="0 0 900 860" role="img" aria-labelledby="title desc">
+<title id="title">Krish Prajapati terminal dashboard</title>
+<desc id="desc">A terminal-style dashboard showing Krish Prajapati’s software engineering profile, skills, tools, and projects.</desc>
+<style>
+
+  .bg { fill: #0d1117; stroke: #30363d; stroke-width: 2; }
+  .titlebar { fill: #161b22; }
+  .divider { stroke: #30363d; stroke-width: 1; }
+  text {
+    font-family: Consolas, Monaco, "Liberation Mono", "Courier New", monospace;
+    font-size: 16px;
+    dominant-baseline: middle;
+  }
+  .window-title { fill: #f0f6fc; font-size: 16px; font-weight: 700; }
+  .prompt { fill: #39d353; font-weight: 700; }
+  .logo { fill: #39d353; font-size: 26px; font-weight: 700; letter-spacing: 1px; }
+  .label { fill: #58a6ff; font-weight: 700; }
+  .value { fill: #c9d1d9; }
+  .tree { fill: #c9d1d9; }
+  .folder { fill: #58a6ff; font-weight: 700; }
+  .project { fill: #d2a8ff; font-weight: 700; }
+  .muted { fill: #8b949e; font-size: 14px; }
+
+  .reveal {
+    opacity: 1;
+    animation: reveal 0.35s ease-out both;
+  }
+
+  @keyframes reveal {
+    0% { opacity: 0; transform: translateY(5px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { animation: none; }
+  }
+
+</style>
+<rect class="bg" x="1" y="1" width="898" height="858" rx="14"/>
+<path class="titlebar" d="M15 1 H885 Q899 1 899 15 V52 H1 V15 Q1 1 15 1 Z"/>
+<circle cx="24" cy="26" r="6" fill="#ff5f56"/>
+<circle cx="46" cy="26" r="6" fill="#ffbd2e"/>
+<circle cx="68" cy="26" r="6" fill="#27c93f"/>
+<text class="window-title" x="450.0" y="28" text-anchor="middle">krish@github: ~/profile</text>
+<line class="divider" x1="1" y1="52" x2="899" y2="52"/>
+<line class="divider" x1="32" y1="444" x2="868" y2="444"/>
+<text class="prompt reveal" x="32" y="88" style="animation-delay:0.10s">krish@github:~$ neofetch</text>
+<text class="logo reveal" x="48" y="138" style="animation-delay:0.18s">██╗  ██╗██████╗</text>
+<text class="logo reveal" x="48" y="168" style="animation-delay:0.24s">██║ ██╔╝██╔══██╗</text>
+<text class="logo reveal" x="48" y="198" style="animation-delay:0.30s">█████╔╝ ██████╔╝</text>
+<text class="logo reveal" x="48" y="228" style="animation-delay:0.36s">██╔═██╗ ██╔═══╝</text>
+<text class="logo reveal" x="48" y="258" style="animation-delay:0.42s">██║  ██╗██║</text>
+<text class="logo reveal" x="48" y="288" style="animation-delay:0.48s">╚═╝  ╚═╝╚═╝</text>
+<text class="label reveal" x="370" y="138" style="animation-delay:0.20s">Name</text>
+<text class="value reveal" x="500" y="138" style="animation-delay:0.24s">Krish Prajapati</text>
+<text class="label reveal" x="370" y="172" style="animation-delay:0.28s">Role</text>
+<text class="value reveal" x="500" y="172" style="animation-delay:0.32s">Software Engineer</text>
+<text class="label reveal" x="370" y="206" style="animation-delay:0.36s">Focus</text>
+<text class="value reveal" x="500" y="206" style="animation-delay:0.40s">Backend &amp; Distributed Systems</text>
+<text class="label reveal" x="370" y="240" style="animation-delay:0.44s">Education</text>
+<text class="value reveal" x="500" y="240" style="animation-delay:0.48s">B.S. Computer Science</text>
+<text class="label reveal" x="370" y="274" style="animation-delay:0.52s">Languages</text>
+<text class="value reveal" x="500" y="274" style="animation-delay:0.56s">Java · Python · TypeScript · SQL</text>
+<text class="label reveal" x="370" y="308" style="animation-delay:0.60s">Backend</text>
+<text class="value reveal" x="500" y="308" style="animation-delay:0.64s">Spring Boot · Kafka · Redis</text>
+<text class="label reveal" x="370" y="342" style="animation-delay:0.68s">Platform</text>
+<text class="value reveal" x="500" y="342" style="animation-delay:0.72s">Docker · Kubernetes · AWS</text>
+<text class="label reveal" x="370" y="376" style="animation-delay:0.76s">Workflow</text>
+<text class="value reveal" x="500" y="376" style="animation-delay:0.80s">Agile · Scrum · CI/CD · SDLC</text>
+<text class="label reveal" x="370" y="410" style="animation-delay:0.84s">Status</text>
+<text class="value reveal" x="500" y="410" style="animation-delay:0.88s">Building production-grade systems</text>
+<text class="prompt reveal" x="32" y="474" style="animation-delay:1.00s">krish@github:~$ tree</text>
+<text class="tree reveal" x="32" y="514" style="animation-delay:1.08s">.</text>
+<text class="folder reveal" x="32" y="548" style="animation-delay:1.16s">├── backend</text>
+<text class="tree reveal" x="32" y="580" style="animation-delay:1.22s">│   ├── Java</text>
+<text class="tree reveal" x="32" y="612" style="animation-delay:1.28s">│   ├── Spring Boot</text>
+<text class="tree reveal" x="32" y="644" style="animation-delay:1.34s">│   ├── Spring Security</text>
+<text class="tree reveal" x="32" y="676" style="animation-delay:1.40s">│   ├── Apache Kafka</text>
+<text class="tree reveal" x="32" y="708" style="animation-delay:1.46s">│   └── PostgreSQL / Redis</text>
+<text class="folder reveal" x="32" y="752" style="animation-delay:1.52s">├── infrastructure</text>
+<text class="tree reveal" x="32" y="784" style="animation-delay:1.58s">│   ├── Docker / Kubernetes</text>
+<text class="tree reveal" x="32" y="816" style="animation-delay:1.64s">│   └── AWS / Linux / Nginx</text>
+<text class="folder reveal" x="315" y="548" style="animation-delay:1.18s">├── testing</text>
+<text class="tree reveal" x="315" y="580" style="animation-delay:1.24s">│   ├── JUnit / Mockito</text>
+<text class="tree reveal" x="315" y="612" style="animation-delay:1.30s">│   ├── Testcontainers</text>
+<text class="tree reveal" x="315" y="644" style="animation-delay:1.36s">│   └── pytest / Playwright</text>
+<text class="folder reveal" x="315" y="688" style="animation-delay:1.42s">├── observability</text>
+<text class="tree reveal" x="315" y="720" style="animation-delay:1.48s">│   ├── Prometheus / Grafana</text>
+<text class="tree reveal" x="315" y="752" style="animation-delay:1.54s">│   └── OpenTelemetry / Jaeger</text>
+<text class="folder reveal" x="610" y="548" style="animation-delay:1.20s">└── projects</text>
+<text class="project reveal" x="610" y="580" style="animation-delay:1.26s">    ├── Issue Tracker</text>
+<text class="project reveal" x="610" y="612" style="animation-delay:1.32s">    ├── Schoolem</text>
+<text class="project reveal" x="610" y="644" style="animation-delay:1.38s">    ├── AI Support Platform</text>
+<text class="project reveal" x="610" y="676" style="animation-delay:1.44s">    └── SteelWorks</text>
+<text class="muted" x="32" y="842">Java · Spring Boot · Distributed Systems · Kubernetes</text>
+</svg>
