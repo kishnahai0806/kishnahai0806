@@ -2,7 +2,7 @@
 
 # Krish Prajapati
 
-### Software Engineer
+### Backend Software Engineer
 Java • Spring Boot • Distributed Systems • Kubernetes
 
 <br>
@@ -11,45 +11,50 @@ Java • Spring Boot • Distributed Systems • Kubernetes
 
 <br><br>
 
-## `krish@github:~$ git log --graph`
-
-<img src="./contrib-heatmap.svg" width="900" alt="Contribution Heatmap"/>
+<img src="./contrib-heatmap.svg" width="900" alt="GitHub Contribution Heatmap"/>
 
 </div>
 
 ---
 
-## Featured Projects
+## `krish@github:~/projects$ ls -la`
 
-### 🚀 Issue Tracker
-Production-grade multi-tenant Jira-style platform.
+### 📁 [Issue-Tracker/](https://github.com/kishnahai0806/Issue-Tracker)
 
-🔗 https://github.com/kishnahai0806/Issue-Tracker
+```text
+├── stack    Java · Spring Boot · PostgreSQL
+├── type     Multi-tenant Jira-style platform
+└── status   Production-grade portfolio project
+```
+
+### 📁 [Schoolem/](https://www.officialschoolem.org)
+
+```text
+├── stack    React · Spring Boot · Supabase
+├── type     Realtime student social platform
+└── status   Live application
+```
+
+### 📁 [AI-Support-Platform/](https://github.com/kishnahai0806/AI-Support-Platform)
+
+```text
+├── stack    Spring Boot · Kafka · Redis
+├── type     Event-driven AI ticket processing
+└── status   Active development
+```
+
+### 📁 [SteelWorks/](https://github.com/kishnahai0806/SteelWorks)
+
+```text
+├── stack    Python · PostgreSQL · Analytics
+├── type     Manufacturing analytics dashboard
+└── status   Portfolio project
+```
 
 ---
 
-### 🎓 Schoolem
-Live social platform for verified college students.
+## `krish@github:~$ whoami --contact`
 
-🌐 https://www.officialschoolem.org
+📧 **Email:** [kprajapati0806@gmail.com](mailto:kprajapati0806@gmail.com)
 
----
-
-### 🤖 AI Support Platform
-Event-driven Spring Boot microservices using Kafka and the OpenAI API.
-
-🔗 https://github.com/kishnahai0806/AI-Support-Platform
-
----
-
-### 🏭 SteelWorks
-Manufacturing analytics dashboard.
-
-🔗 https://github.com/kishnahai0806/SteelWorks
-
----
-
-## Contact
-
-📧 kprajapati0806@gmail.com  
-💼 [LinkedIn](https://www.linkedin.com/in/krish-prajapati-swe/)
+💼 **LinkedIn:** https://www.linkedin.com/in/krish-prajapati-swe/
