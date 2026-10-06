@@ -11,10 +11,6 @@ Java • Spring Boot • Distributed Systems • Kubernetes
 
 <br><br>
 
-<img src="./contrib-heatmap.svg" width="900" alt="GitHub Contribution Heatmap"/>
-
-<br><br>
-
 <a href="https://github.com/kishnahai0806?tab=repositories">
   <img src="./projects-terminal.svg" width="900" alt="Krish Prajapati featured projects"/>
 </a>
